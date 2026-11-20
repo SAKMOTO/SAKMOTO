@@ -3,11 +3,11 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/typing.svg"/><img src="assets/typing.svg" alt="Typing intro"/></picture>
 
 <p align="center">
-  <a href="https://qubit-beta.vercel.app/"><img src="https://skillicons.dev/icons?i=qubit" alt="Qubit" width="30"/></a>
-  <a href="https://read.cv/mohammedharun"><img src="https://skillicons.dev/icons?i=resume" alt="Resume" width="30"/></a>
+  <a href="https://qubit-beta.vercel.app/"><img src="https://img.shields.io/badge/-Qubit-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Qubit" height="28"/></a>
+  <a href="https://read.cv/mohammedharun"><img src="https://img.shields.io/badge/-Resume-000?style=for-the-badge&logo=readcv&logoColor=white" alt="Resume" height="28"/></a>
   <a href="https://linkedin.com/in/mohammed-harun-a5026233a"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="30"/></a>
-  <a href="https://x.com/MD_HARUN_DEV"><img src="https://skillicons.dev/icons?i=x" alt="X" width="30"/></a>
-  <a href="https://t.me/SAKMOTO"><img src="https://skillicons.dev/icons?i=telegram" alt="Telegram" width="30"/></a>
+  <a href="https://x.com/MD_HARUN_DEV"><img src="https://skillicons.dev/icons?i=twitter" alt="X" width="30"/></a>
+  <a href="https://t.me/SAKMOTO"><img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" height="28"/></a>
   <a href="https://discord.com/users/mohammedharun_3916"><img src="https://skillicons.dev/icons?i=discord" alt="Discord" width="30"/></a>
   <a href="https://www.instagram.com/legendary_king_harun/"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" width="30"/></a>
   <a href="https://twitch.tv/mohammedharun"><img src="https://skillicons.dev/icons?i=twitch" alt="Twitch" width="30"/></a>
