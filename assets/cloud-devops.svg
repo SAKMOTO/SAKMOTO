@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" fill="none">
+  <defs>
+    <style>
+      .m { font-family:'JetBrains Mono',monospace; }
+      .cat { font-size:12px; font-weight:700; fill:#000; letter-spacing:3px; }
+      .item { font-size:11px; fill:#000; opacity:.7; }
+      .card { stroke:#000; stroke-width:1; opacity:.15; fill:none; }
+    </style>
+  </defs>
+  <text class="m cat" x="40" y="40">CLOUD &amp; DEVOPS</text>
+  <line x1="40" y1="55" x2="1160" y2="55" stroke="#000" opacity=".15"/>
+  <rect class="card" x="40" y="80" width="1120" height="100"/>
+  <image href="https://skillicons.dev/icons?i=firebase" x="70" y="100" width="50" height="50"/>
+  <text class="m item" x="95" y="170" text-anchor="middle">Firebase</text>
+  <image href="https://skillicons.dev/icons?i=vercel" x="170" y="100" width="50" height="50"/>
+  <text class="m item" x="195" y="170" text-anchor="middle">Vercel</text>
+  <image href="https://skillicons.dev/icons?i=github" x="270" y="100" width="50" height="50"/>
+  <text class="m item" x="295" y="170" text-anchor="middle">GitHub</text>
+  <image href="https://skillicons.dev/icons?i=git" x="370" y="100" width="50" height="50"/>
+  <text class="m item" x="395" y="170" text-anchor="middle">Git</text>
+</svg>
