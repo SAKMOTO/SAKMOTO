@@ -14,6 +14,15 @@
   <a href="mailto:mohammedharun3916@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" width="30"/></a>
 </p>
 
+<p align="center">
+  <a href="#stack"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"/><img src="assets/stack.svg" alt="Technical stack" width="30"/></picture></a>
+  <a href="#ai-tools"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/ai-tools.svg"/><img src="assets/ai-tools.svg" alt="AI tools and prompt engineering" width="30"/></picture></a>
+  <a href="#dev-tools"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/dev-tools.svg"/><img src="assets/dev-tools.svg" alt="Development tools" width="30"/></picture></a>
+  <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/contact.svg"/><img src="assets/contact.svg" alt="Contact" width="30"/></picture></a>
+  <a href="#support"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/support.svg"/><img src="assets/support.svg" alt="Support my work" width="30"/></picture></a>
+  <a href="#extras"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/extras.svg"/><img src="assets/extras.svg" alt="Playlist, memes and game" width="30"/></picture></a>
+</p>
+
 </div>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s01.svg"/><img src="assets/s01.svg" alt="01 — whoami"/></picture>
