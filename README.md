@@ -2,7 +2,6 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/typing.svg"/><img src="assets/typing.svg" alt="Typing intro"/></picture>
 
-<h1 align="center">Mohammed Harun</h1>
 <p align="center">
   <a href="https://qubit-beta.vercel.app/"><img src="https://skillicons.dev/icons?i=qubit" alt="Qubit" width="30"/></a>
   <a href="https://read.cv/mohammedharun"><img src="https://skillicons.dev/icons?i=resume" alt="Resume" width="30"/></a>
