@@ -72,17 +72,71 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s06.svg"/><img src="assets/s06.svg" alt="06 — stack"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"/><img src="assets/stack.svg" alt="Technical stack"/></picture>
 
+<div align="center">
+
+**🌐 Web**
+
+[![HTML](https://skillicons.dev/icons?i=html,css,js,react,tailwind,jquery,nodejs,express,php,mysql,mongodb,postgres,firebase)](https://skillicons.dev)
+
+**⚙️ System & Android**
+
+[![System](https://skillicons.dev/icons?i=c,cpp,java,kotlin,python,androidstudio,android,linux,git,electron)](https://skillicons.dev)
+
+**☁️ Cloud & DevOps**
+
+[![Cloud](https://skillicons.dev/icons?i=firebase,vercel,github,git)](https://skillicons.dev)
+
+**🤖 AI / ML**
+
+[![AI](https://skillicons.dev/icons?i=python,tensorflow,pytorch)](https://skillicons.dev)
+
+</div>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s07.svg"/><img src="assets/s07.svg" alt="07 — ai tools"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/ai-tools.svg"/><img src="assets/ai-tools.svg" alt="AI tools and prompt engineering"/></picture>
+
+<div align="center">
+
+[![AI Tools](https://skillicons.dev/icons?i=openai)](https://skillicons.dev)
+&nbsp;<img src="https://img.shields.io/badge/Claude-Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white" height="28"/>
+&nbsp;<img src="https://img.shields.io/badge/Gemini-Google-4285F4?style=for-the-badge&logo=google&logoColor=white" height="28"/>
+&nbsp;<img src="https://img.shields.io/badge/HuggingFace-Models-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="28"/>
+&nbsp;<img src="https://img.shields.io/badge/Meta_LLaMA-Local-0467DF?style=for-the-badge&logo=meta&logoColor=white" height="28"/>
+&nbsp;<img src="https://img.shields.io/badge/Cohere-LLM-39594A?style=for-the-badge&logoColor=white" height="28"/>
+
+</div>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s08.svg"/><img src="assets/s08.svg" alt="08 — dev tools"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/dev-tools.svg"/><img src="assets/dev-tools.svg" alt="Development tools"/></picture>
 
+<div align="center">
+
+[![Dev Tools](https://skillicons.dev/icons?i=vscode,androidstudio,git,bash,wordpress,figma)](https://skillicons.dev)
+
+</div>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s09.svg"/><img src="assets/s09.svg" alt="09 — contact"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/contact.svg"/><img src="assets/contact.svg" alt="Contact"/></picture>
 
+<div align="center">
+
+<a href="mailto:mohammedharun3916@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" width="40"/></a>
+&nbsp;<a href="https://discord.com/users/mohammedharun_3916"><img src="https://skillicons.dev/icons?i=discord" alt="Discord" width="40"/></a>
+&nbsp;<a href="https://linkedin.com/in/mohammed-harun-a5026233a"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="40"/></a>
+&nbsp;<a href="https://t.me/SAKMOTO"><img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" height="40"/></a>
+
+</div>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s10.svg"/><img src="assets/s10.svg" alt="10 — support"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/support.svg"/><img src="assets/support.svg" alt="Support my work"/></picture>
+
+<div align="center">
+
+<a href="https://www.buymeacoffee.com/mohammedharun"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="35"/></a>
+&nbsp;<a href="https://paypal.me/Mohammedharun200"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" height="35"/></a>
+&nbsp;<a href="https://ko-fi.com/mohammedharun"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" height="35"/></a>
+
+</div>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s11.svg"/><img src="assets/s11.svg" alt="11 — extras"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/extras.svg"/><img src="assets/extras.svg" alt="Playlist, memes and game"/></picture>
