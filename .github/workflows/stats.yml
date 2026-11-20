@@ -1,0 +1,61 @@
+name: Update Stats SVG
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch real GitHub stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER: SAKMOTO
+        run: |
+          CONTRIB=$(gh api graphql -f query='
+            query($u:String!){user(login:$u){contributionsCollection{
+              contributionCalendar{totalContributions}}}}' \
+            -f u="$USER" --jq \
+            '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+
+          REPOS=$(gh api users/$USER --jq '.public_repos')
+          FOLLOWERS=$(gh api users/$USER --jq '.followers')
+          STARS=$(gh api "users/$USER/repos?per_page=100" --jq '[.[].stargazers_count] | add // 0')
+
+          echo "CONTRIB=$CONTRIB"
+          echo "REPOS=$REPOS"
+          echo "FOLLOWERS=$FOLLOWERS"
+          echo "STARS=$STARS"
+
+          # Inject into SVG templates
+          sed -e "s/{{CONTRIB}}/$CONTRIB/g" \
+              -e "s/{{REPOS}}/$REPOS/g" \
+              -e "s/{{FOLLOWERS}}/$FOLLOWERS/g" \
+              -e "s/{{STARS}}/$STARS/g" \
+              assets/templates/github-stats.svg > assets/github-stats.svg
+
+          sed -e "s/{{CONTRIB}}/$CONTRIB/g" \
+              -e "s/{{REPOS}}/$REPOS/g" \
+              -e "s/{{STARS}}/$STARS/g" \
+              assets/templates/telemetry.svg > assets/telemetry.svg
+
+          # Regenerate dark variants
+          sed 's/#000/#fff/g' assets/github-stats.svg > assets/dark/github-stats.svg
+          sed 's/#000/#fff/g' assets/telemetry.svg    > assets/dark/telemetry.svg
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/dark/github-stats.svg \
+                  assets/telemetry.svg    assets/dark/telemetry.svg
+          git commit -m "chore: sync real stats ($(date -u +%Y-%m-%d))" || exit 0
+          git push

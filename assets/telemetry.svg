@@ -18,16 +18,16 @@
   <line class="grid" x1="0" y1="60" x2="1200" y2="60"/>
   <line class="grid" x1="0" y1="120" x2="1200" y2="120"/>
   <line class="grid" x1="0" y1="180" x2="1200" y2="180"/>
-  <text class="m k" x="40" y="40">COMMITS / WEEK</text>
-  <text class="m v" x="40" y="88">+38</text>
+  <text class="m k" x="40" y="40">COMMITS / YEAR</text>
+  <text class="m v" x="40" y="88">1128</text>
   <rect class="bar" x="40" y="102" width="300" height="6"/>
   <rect class="fill f1" x="40" y="102" width="300" height="6"/>
-  <text class="m k" x="420" y="40">REPOS</text>
-  <text class="m v" x="420" y="88">24</text>
+  <text class="m k" x="420" y="40">PUBLIC REPOS</text>
+  <text class="m v" x="420" y="88">52</text>
   <rect class="bar" x="420" y="102" width="300" height="6"/>
   <rect class="fill f2" x="420" y="102" width="300" height="6"/>
-  <text class="m k" x="800" y="40">STARS</text>
-  <text class="m v" x="800" y="88">128+</text>
+  <text class="m k" x="800" y="40">TOTAL STARS</text>
+  <text class="m v" x="800" y="88">12</text>
   <rect class="bar" x="800" y="102" width="300" height="6"/>
   <rect class="fill f3" x="800" y="102" width="300" height="6"/>
   <text class="m k" x="40" y="160">●  CURRENT FOCUS</text>
