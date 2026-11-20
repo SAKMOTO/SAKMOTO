@@ -17,7 +17,7 @@
 </div>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s01.svg"/><img src="assets/s01.svg" alt="01 — whoami"/></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoami.svg"/><img src="assets/whoami.svg" alt="About Me"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoavi.svg"/><img src="assets/whoami.svg" alt="About Mohammed Harun"/></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s02.svg"/><img src="assets/s02.svg" alt="02 — system map"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/ecosystem.svg"/><img src="assets/ecosystem.svg" alt="Project ecosystem"/></picture>
@@ -38,7 +38,7 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=SAKMOTO&layout=compact&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=ffffff&count_private=true"/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAKMOTO&layout=compact&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000&count_private=true" width="70%" alt="Top languages"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=SAKMOTO&layout=compact&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=ffffff&count_private=true"/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAKMOTO&layout=compact&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000&count_private=true" width="40%" alt="Top languages"/></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=SAKMOTO&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff&area_color=ffffff&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY"/><img src="https://github-readme-activity-graph.vercel.app/graph?username=SAKMOTO&bg_color=00000000&color=000000&line=000000&point=000000&area_color=000000&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY" width="97%" alt="GitHub contribution activity"/></picture>
 

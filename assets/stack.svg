@@ -4,7 +4,7 @@
       .m { font-family:'JetBrains Mono',monospace; }
       .cat { font-size:12px; font-weight:700; fill:#000; letter-spacing:3px; }
       .sub { font-size:10px; fill:#000; opacity:.5; letter-spacing:2px; }
-      .item { font-size:13px; fill:#000; opacity:.85; }
+      .item { font-size:11px; fill:#000; opacity:.85; }
       .card { stroke:#000; stroke-width:1; opacity:.15; fill:none; }
       .pulse { animation: pulse 3s ease-in-out infinite; }
       @keyframes pulse { 0%,100%{ fill:#000; } 50%{ fill:#ff6600; } }
@@ -48,7 +48,7 @@
   <line x1="40" y1="335" x2="1160" y2="335" stroke="#000" opacity=".15"/>
 
   <g class="fade d4">
-    <rect class="card" x="40" y="360" width="360" height="200"/>
+    <rect class="card" x="40" y="360" width="300" height="200"/>
     <text class="m cat" x="70" y="395">PROGRAMMING LANGUAGES</text>
     <text class="m item pulse" x="70" y="435">C</text>
     <text class="m item pulse" x="70" y="465">C++</text>
