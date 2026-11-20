@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" fill="none">
+  <defs>
+    <style>
+      .m { font-family:'JetBrains Mono',monospace; }
+      .h { font-size:14px; font-weight:700; fill:#000; letter-spacing:3px; }
+      .t { font-size:13px; fill:#000; }
+      .d { font-size:11px; fill:#000; opacity:.55; letter-spacing:2px; }
+      .card { stroke:#000; stroke-width:1; opacity:.18; fill:none; }
+      .fade{opacity:0;animation:fade .8s ease forwards}
+      .d1{animation-delay:.1s}.d2{animation-delay:.25s}.d3{animation-delay:.4s}
+      @keyframes fade{to{opacity:1}}
+    </style>
+  </defs>
+  <text class="m h" x="40" y="40">EXTRAS — PLAYLIST · MEMES · GAME</text>
+  <line x1="40" y1="55" x2="1160" y2="55" stroke="#000" opacity=".15"/>
+  <g class="fade d1"><rect class="card" x="40" y="80" width="360" height="190"/><text class="m h" x="70" y="115">CODING PLAYLIST</text><text class="m t" x="70" y="145">Spotify → curated coding beats</text><text class="m d" x="70" y="175">open.spotify.com/playlist/7CrRTw0Z</text></g>
+  <g class="fade d2"><rect class="card" x="420" y="80" width="360" height="190"/><text class="m h" x="450" y="115">MEMES &amp; JOKES</text><text class="m t" x="450" y="145">programming-joke-card API</text><text class="m t" x="450" y="170">GIFs: docker · linus · feature-tree</text><text class="m d" x="450" y="200">expand in README details block</text></g>
+  <g class="fade d3"><rect class="card" x="800" y="80" width="360" height="190"/><text class="m h" x="830" y="115">DINO GAME</text><text class="m t" x="830" y="145">Play the classic Chrome dino</text><text class="m d" x="830" y="175">expand in README details block</text></g>
+</svg>

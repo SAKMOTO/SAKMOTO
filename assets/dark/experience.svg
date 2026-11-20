@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" fill="none">
+  <defs>
+    <style>
+      .m { font-family:'JetBrains Mono',monospace; }
+      .role { font-size:18px; font-weight:700; fill:#fff; }
+      .org { font-size:13px; fill:#fff; opacity:.65; }
+      .when { font-size:12px; fill:#fff; opacity:.5; letter-spacing:2px; }
+      .desc { font-size:12px; fill:#fff; opacity:.8; }
+      .card { stroke:#fff; stroke-width:1; opacity:.18; fill:none; }
+      .fade{opacity:0;animation:fade .8s ease forwards}
+      .d1{animation-delay:.1s}.d2{animation-delay:.3s}.d3{animation-delay:.5s}
+      @keyframes fade{to{opacity:1}}
+    </style>
+  </defs>
+  <g class="fade d1">
+    <rect class="card" x="40" y="20" width="1120" height="100"/>
+    <text class="m when" x="70" y="50">PRESENT</text>
+    <text class="m role" x="70" y="78">FOUNDER · QUBIT</text>
+    <text class="m org" x="500" y="78">qubit-beta.vercel.app</text>
+    <text class="m desc" x="70" y="100">Electron desktop platform · kernel &amp; ROM tooling · system dev workflows</text>
+  </g>
+  <g class="fade d2">
+    <rect class="card" x="40" y="140" width="1120" height="100"/>
+    <text class="m when" x="70" y="170">ONGOING</text>
+    <text class="m role" x="70" y="198">KERNEL ENGINEER · KERNEL_S20FE</text>
+    <text class="m org" x="600" y="198">github.com/SAKMOTO/Kernel_S20FE</text>
+    <text class="m desc" x="70" y="220">Custom Snapdragon kernel · governors · KCAL · I/O schedulers · stability</text>
+  </g>
+  <g class="fade d3">
+    <rect class="card" x="40" y="260" width="1120" height="100"/>
+    <text class="m when" x="70" y="290">R&amp;D</text>
+    <text class="m role" x="70" y="318">SYSTEM PROGRAMMER · ROM / AOSP</text>
+    <text class="m org" x="640" y="318">One UI porting · device bring-up</text>
+    <text class="m desc" x="70" y="340">Android framework mods · HAL · system services · AOSP customization</text>
+  </g>
+</svg>

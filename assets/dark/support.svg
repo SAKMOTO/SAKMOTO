@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" fill="none">
+  <defs>
+    <style>
+      .m { font-family:'JetBrains Mono',monospace; }
+      .h { font-size:14px; font-weight:700; fill:#fff; letter-spacing:3px; }
+      .t { font-size:14px; font-weight:700; fill:#fff; }
+      .d { font-size:11px; fill:#fff; opacity:.55; letter-spacing:2px; }
+      .card { stroke:#fff; stroke-width:1; opacity:.18; fill:none; }
+      .fade{opacity:0;animation:fade .8s ease forwards}
+      .d1{animation-delay:.1s}.d2{animation-delay:.25s}.d3{animation-delay:.4s}
+      @keyframes fade{to{opacity:1}}
+    </style>
+  </defs>
+  <text class="m h" x="40" y="40">SUPPORT MY WORK</text>
+  <line x1="40" y1="55" x2="1160" y2="55" stroke="#fff" opacity=".15"/>
+  <g class="fade d1"><rect class="card" x="40" y="80" width="360" height="100"/><text class="m t" x="70" y="125">BUY ME A COFFEE</text><text class="m d" x="70" y="150">buymeacoffee.com/mohammedharun</text></g>
+  <g class="fade d2"><rect class="card" x="420" y="80" width="360" height="100"/><text class="m t" x="450" y="125">PAYPAL</text><text class="m d" x="450" y="150">paypal.me/MohammedHarun209</text></g>
+  <g class="fade d3"><rect class="card" x="800" y="80" width="360" height="100"/><text class="m t" x="830" y="125">KO-FI</text><text class="m d" x="830" y="150">ko-fi.com/mohammedharun</text></g>
+</svg>

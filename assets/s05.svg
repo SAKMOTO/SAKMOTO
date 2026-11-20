@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" fill="none">
+  <defs>
+    <style>
+      .num { font-family:'JetBrains Mono',monospace; font-size:56px; font-weight:800; fill:#000; opacity:0; animation: fade 1.2s ease forwards; }
+      .label { font-family:'JetBrains Mono',monospace; font-size:14px; letter-spacing:6px; fill:#000; opacity:0; animation: fade 1.2s .2s ease forwards; }
+      .rule { stroke:#000; stroke-width:1; opacity:.15; stroke-dasharray:0 1200; animation: draw 1.6s .3s ease forwards; }
+      @keyframes fade { to { opacity:1 } }
+      @keyframes draw { to { stroke-dasharray:1200 0 } }
+    </style>
+  </defs>
+  <text class="num" x="40" y="56">05</text>
+  <text class="label" x="140" y="46">THE ROUTE</text>
+  <line class="rule" x1="320" y1="40" x2="1200" y2="40"/>
+</svg>

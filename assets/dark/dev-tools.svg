@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" fill="none">
+  <defs>
+    <style>
+      .m { font-family:'JetBrains Mono',monospace; }
+      .h { font-size:14px; font-weight:700; fill:#fff; letter-spacing:3px; }
+      .t { font-size:14px; fill:#fff; }
+      .s { font-size:11px; fill:#fff; opacity:.5; letter-spacing:2px; }
+      .card { stroke:#fff; stroke-width:1; opacity:.18; fill:none; }
+      .fade{opacity:0;animation:fade .8s ease forwards}
+      .d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}
+      .d4{animation-delay:.4s}.d5{animation-delay:.5s}.d6{animation-delay:.6s}
+      @keyframes fade{to{opacity:1}}
+    </style>
+  </defs>
+  <text class="m h" x="40" y="40">DEVELOPMENT TOOLS</text>
+  <line x1="40" y1="55" x2="1160" y2="55" stroke="#fff" opacity=".15"/>
+  <g class="fade d1"><rect class="card" x="40" y="80" width="175" height="110"/><text class="m t" x="60" y="125">VS CODE</text><text class="m s" x="60" y="155">EDITOR</text></g>
+  <g class="fade d2"><rect class="card" x="225" y="80" width="175" height="110"/><text class="m t" x="245" y="118">ANDROID</text><text class="m t" x="245" y="140">STUDIO</text><text class="m s" x="245" y="165">IDE</text></g>
+  <g class="fade d3"><rect class="card" x="410" y="80" width="175" height="110"/><text class="m t" x="430" y="125">GIT</text><text class="m s" x="430" y="150">VERSION CONTROL</text></g>
+  <g class="fade d4"><rect class="card" x="595" y="80" width="175" height="110"/><text class="m t" x="615" y="125">BASH</text><text class="m s" x="615" y="150">SHELL</text></g>
+  <g class="fade d5"><rect class="card" x="780" y="80" width="175" height="110"/><text class="m t" x="800" y="125">WORDPRESS</text><text class="m s" x="800" y="150">CMS</text></g>
+  <g class="fade d6"><rect class="card" x="965" y="80" width="195" height="110"/><text class="m t" x="985" y="125">FIGMA</text><text class="m s" x="985" y="150">DESIGN</text></g>
+</svg>

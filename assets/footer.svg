@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" fill="none">
+  <defs>
+    <style>
+      .m { font-family:'JetBrains Mono',monospace; }
+      .k { font-size:11px; fill:#000; opacity:.55; letter-spacing:3px; }
+      .v { font-size:16px; fill:#000; font-weight:700; }
+      .dot { fill:#000; animation: p 2s ease-in-out infinite; }
+      @keyframes p { 0%,100%{opacity:.3} 50%{opacity:1} }
+      .line { stroke:#000; stroke-width:1; opacity:.15; }
+    </style>
+  </defs>
+  <line class="line" x1="0" y1="30" x2="1200" y2="30"/>
+  <circle class="dot" cx="60" cy="70" r="6"/>
+  <text class="m k" x="80" y="75">CURRENT STATUS</text>
+  <text class="m v" x="80" y="105">Building Qubit V1 · Shipping Kernel_S20FE</text>
+  <text class="m k" x="820" y="75">SIGNAL</text>
+  <text class="m v" x="820" y="105">Open to collab · system-level projects</text>
+</svg>

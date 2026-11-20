@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" fill="none">
+  <defs>
+    <style>
+      .m { font-family:'JetBrains Mono',monospace; }
+      .t { font-size:16px; font-weight:700; fill:#000; }
+      .d { font-size:11px; fill:#000; opacity:.55; letter-spacing:2px; }
+      .b { font-size:12px; fill:#000; opacity:.8; }
+      .card { stroke:#000; stroke-width:1; opacity:.18; fill:none; }
+      .tag { stroke:#000; stroke-width:1; opacity:.45; fill:none; }
+      .fade { opacity:0; animation: fade .8s ease forwards; }
+      .fade.d1{animation-delay:.1s} .fade.d2{animation-delay:.25s}
+      .fade.d3{animation-delay:.4s} .fade.d4{animation-delay:.55s}
+      .fade.d5{animation-delay:.7s}
+      @keyframes fade { to { opacity:1 } }
+    </style>
+  </defs>
+  <g class="fade d1">
+    <rect class="card" x="40" y="20" width="540" height="170"/>
+    <text class="m t" x="70" y="55">01 · QUBIT</text>
+    <text class="m d" x="70" y="78">ELECTRON · REACT · NODE</text>
+    <text class="m b" x="70" y="108">All-in-one desktop platform for kernel</text>
+    <text class="m b" x="70" y="126">compilation, ROM porting, Android dev.</text>
+    <text class="m b" x="70" y="150">→ qubit-beta.vercel.app</text>
+    <text class="m b" x="70" y="172">Virtual device emulator · system analysis (upcoming)</text>
+    <rect class="tag" x="470" y="40" width="90" height="22"/>
+    <text class="m d" x="515" y="55" text-anchor="middle">LIVE</text>
+  </g>
+  <g class="fade d2">
+    <rect class="card" x="620" y="20" width="540" height="170"/>
+    <text class="m t" x="650" y="55">02 · KERNEL_S20FE</text>
+    <text class="m d" x="650" y="78">C · LINUX · SNAPDRAGON</text>
+    <text class="m b" x="650" y="108">Custom kernel for Galaxy S20 FE —</text>
+    <text class="m b" x="650" y="126">perf, battery, KCAL, governors, schedulers.</text>
+    <text class="m b" x="650" y="150">→ github.com/SAKMOTO/Kernel_S20FE</text>
+    <text class="m b" x="650" y="172">Open source · regular updates · community</text>
+    <rect class="tag" x="1050" y="40" width="90" height="22"/>
+    <text class="m d" x="1095" y="55" text-anchor="middle">OSS</text>
+  </g>
+  <g class="fade d3">
+    <rect class="card" x="40" y="210" width="540" height="170"/>
+    <text class="m t" x="70" y="245">03 · METAMIND_X</text>
+    <text class="m d" x="70" y="268">PYTHON · PYTORCH · LANGCHAIN</text>
+    <text class="m b" x="70" y="298">Advanced AI/ML platform — training,</text>
+    <text class="m b" x="70" y="316">deployment, optimization.</text>
+    <text class="m b" x="70" y="340">→ in development</text>
+    <text class="m b" x="70" y="362">Sleek interface · peak-performance models</text>
+    <rect class="tag" x="470" y="230" width="90" height="22"/>
+    <text class="m d" x="515" y="245" text-anchor="middle">WIP</text>
+  </g>
+  <g class="fade d4">
+    <rect class="card" x="620" y="210" width="540" height="170"/>
+    <text class="m t" x="650" y="245">04 · OPEN INTERPRETER</text>
+    <text class="m d" x="650" y="268">PYTHON · LLM · MULTI-LANG</text>
+    <text class="m b" x="650" y="298">Intelligent code execution &amp; context-</text>
+    <text class="m b" x="650" y="316">aware suggestions across languages.</text>
+    <text class="m b" x="650" y="340">→ in development</text>
+    <text class="m b" x="650" y="362">Code analysis · automated optimization</text>
+    <rect class="tag" x="1050" y="230" width="90" height="22"/>
+    <text class="m d" x="1095" y="245" text-anchor="middle">WIP</text>
+  </g>
+  <g class="fade d5">
+    <rect class="card" x="40" y="400" width="1120" height="190"/>
+    <text class="m t" x="70" y="435">05 · ANDROID FRAMEWORK &amp; HAL</text>
+    <text class="m d" x="70" y="458">JAVA · KOTLIN · AOSP · SYSTEM SERVICES</text>
+    <text class="m b" x="70" y="488">System services, HAL development, One UI porting, device bring-up for AOSP forks.</text>
+    <text class="m b" x="70" y="512">Ongoing research → custom ROMs for Snapdragon devices.</text>
+    <text class="m b" x="70" y="540">System services · kernel ↔ userspace · stability</text>
+    <rect class="tag" x="1050" y="420" width="90" height="22"/>
+    <text class="m d" x="1095" y="435" text-anchor="middle">LAB</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" fill="none">
+  <defs>
+    <style>
+      .m { font-family:'JetBrains Mono',monospace; }
+      .cat { font-size:12px; font-weight:700; fill:#fff; letter-spacing:3px; }
+      .item { font-size:13px; fill:#fff; opacity:.78; }
+      .card { stroke:#fff; stroke-width:1; opacity:.25; fill:none; }
+      .fade{opacity:0;animation:fade .8s ease forwards}
+      .d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}
+      .d4{animation-delay:.4s}.d5{animation-delay:.5s}.d6{animation-delay:.6s}
+      @keyframes fade{to{opacity:1}}
+    </style>
+  </defs>
+  <g class="fade d1"><rect class="card" x="40" y="20" width="360" height="200"/><text class="m cat" x="70" y="55">LANGUAGES</text><text class="m item" x="70" y="95">C · C++</text><text class="m item" x="70" y="125">Java</text><text class="m item" x="70" y="155">Kotlin</text><text class="m item" x="70" y="185">Python</text></g>
+  <g class="fade d2"><rect class="card" x="420" y="20" width="360" height="200"/><text class="m cat" x="450" y="55">SYSTEM</text><text class="m item" x="450" y="95">Linux</text><text class="m item" x="450" y="125">Android Framework</text><text class="m item" x="450" y="155">HAL · AOSP</text><text class="m item" x="450" y="185">Git · Bash</text></g>
+  <g class="fade d3"><rect class="card" x="800" y="20" width="360" height="200"/><text class="m cat" x="830" y="55">DESKTOP</text><text class="m item" x="830" y="95">Electron</text><text class="m item" x="830" y="125">React</text><text class="m item" x="830" y="155">Node.js</text><text class="m item" x="830" y="185">Express</text></g>
+  <g class="fade d4"><rect class="card" x="40" y="240" width="360" height="200"/><text class="m cat" x="70" y="275">WEB</text><text class="m item" x="70" y="315">HTML · CSS</text><text class="m item" x="70" y="345">JavaScript</text><text class="m item" x="70" y="375">React · jQuery</text><text class="m item" x="70" y="405">Tailwind · PHP</text></g>
+  <g class="fade d5"><rect class="card" x="420" y="240" width="360" height="200"/><text class="m cat" x="450" y="275">DATA</text><text class="m item" x="450" y="315">MySQL</text><text class="m item" x="450" y="345">MongoDB</text><text class="m item" x="450" y="375">PostgreSQL</text><text class="m item" x="450" y="405">Firebase</text></g>
+  <g class="fade d6"><rect class="card" x="800" y="240" width="360" height="200"/><text class="m cat" x="830" y="275">AI / ML</text><text class="m item" x="830" y="315">PyTorch · NumPy</text><text class="m item" x="830" y="345">Pandas · TensorFlow</text><text class="m item" x="830" y="375">LangChain · Ollama</text><text class="m item" x="830" y="405">LlamaIndex · Cohere</text></g>
+</svg>

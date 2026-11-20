@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" fill="none">
+  <defs>
+    <style>
+      .m { font-family:'JetBrains Mono',monospace; }
+      .k { font-size:14px; fill:#000; opacity:.55; letter-spacing:2px; }
+      .v { font-size:15px; fill:#000; }
+      .cursor { animation: blink 1.1s steps(2) infinite; }
+      @keyframes blink { 50%{opacity:0} }
+      .box { stroke:#000; stroke-width:1; opacity:.15; fill:none; }
+      .l1,.l2,.l3,.l4,.l5 { opacity:0; animation: fade .6s ease forwards; }
+      .l1{animation-delay:.2s} .l2{animation-delay:.8s}
+      .l3{animation-delay:1.4s} .l4{animation-delay:2.0s}
+      .l5{animation-delay:2.6s}
+      @keyframes fade { to { opacity:1 } }
+    </style>
+  </defs>
+  <rect class="box" x="40" y="20" width="1120" height="420"/>
+  <text class="m k l1" x="70" y="60">$ whoami</text>
+  <text class="m v l1" x="70" y="92">→ Android &amp; Kernel Engineer · System Programmer · ROM / OS Dev</text>
+  <text class="m k l2" x="70" y="140">$ cat mission.txt</text>
+  <text class="m v l2" x="70" y="172">  I build at the deepest layers of system software — custom kernels for</text>
+  <text class="m v l2" x="70" y="196">  Snapdragon devices, full Android ROM porting, Android framework mods,</text>
+  <text class="m v l2" x="70" y="220">  and Electron desktop apps. C, C++, Java, Python, Kotlin.</text>
+  <text class="m k l3" x="70" y="268">$ ./startup --name=Qubit</text>
+  <text class="m v l3" x="70" y="300">  Founder · Qubit — Electron-based desktop platform for system development.</text>
+  <text class="m k l4" x="70" y="348">$ cat philosophy.txt</text>
+  <text class="m v l4" x="70" y="380">  Bridge hardware and software. Optimize every layer. Ship real products.</text>
+  <text class="m k l5" x="70" y="428">$ echo $GOAL</text>
+  <text class="m v l5" x="70" y="450">  Become a leading System Engineer · Android internals · cross-platform.<tspan class="cursor">_</tspan></text>
+</svg>

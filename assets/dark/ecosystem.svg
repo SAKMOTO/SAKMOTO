@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <style>
+      .l { font-family:'JetBrains Mono',monospace; font-size:13px; fill:#fff; }
+      .h { font-size:15px; font-weight:700; }
+      .d { opacity:.5; font-size:11px; letter-spacing:2px; }
+      .node { stroke:#fff; stroke-width:1.2; fill:none; }
+      .dline { stroke:#fff; stroke-width:1; opacity:.25; stroke-dasharray:2 4; animation: dash 3s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -12 } }
+      .pulse { animation: p 2.4s ease-in-out infinite; transform-origin:center; }
+      @keyframes p { 0%,100%{opacity:.5} 50%{opacity:1} }
+    </style>
+  </defs>
+  <circle cx="600" cy="180" r="52" class="node pulse"/>
+  <text class="l h" x="600" y="178" text-anchor="middle">QUBIT</text>
+  <text class="l d" x="600" y="196" text-anchor="middle">CORE PLATFORM</text>
+  <line class="dline" x1="600" y1="128" x2="600" y2="80"/>
+  <line class="dline" x1="652" y1="180" x2="840" y2="180"/>
+  <line class="dline" x1="548" y1="180" x2="360" y2="180"/>
+  <line class="dline" x1="600" y1="232" x2="600" y2="290"/>
+  <rect class="node" x="520" y="30" width="160" height="50"/>
+  <text class="l h" x="600" y="52" text-anchor="middle">KERNEL_S20FE</text>
+  <text class="l d" x="600" y="68" text-anchor="middle">SNAPDRAGON CUSTOM</text>
+  <rect class="node" x="840" y="155" width="180" height="50"/>
+  <text class="l h" x="930" y="177" text-anchor="middle">ELECTRON DESKTOP</text>
+  <text class="l d" x="930" y="193" text-anchor="middle">CROSS-PLATFORM</text>
+  <rect class="node" x="180" y="155" width="180" height="50"/>
+  <text class="l h" x="270" y="177" text-anchor="middle">ROM / AOSP</text>
+  <text class="l d" x="270" y="193" text-anchor="middle">ONE UI PORTING</text>
+  <rect class="node" x="520" y="290" width="160" height="50"/>
+  <text class="l h" x="600" y="312" text-anchor="middle">METAMIND_X</text>
+  <text class="l d" x="600" y="328" text-anchor="middle">AI / ML PLATFORM</text>
+</svg>

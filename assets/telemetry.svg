@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" fill="none">
+  <defs>
+    <style>
+      .m { font-family:'JetBrains Mono',monospace; }
+      .k { font-size:12px; fill:#000; opacity:.55; letter-spacing:2px; }
+      .v { font-size:28px; font-weight:700; fill:#000; }
+      .bar { fill:#000; opacity:.15; }
+      .fill { fill:#000; transform-origin:left; }
+      .f1 { animation: g1 3s ease-in-out infinite; }
+      .f2 { animation: g2 3s ease-in-out infinite; }
+      .f3 { animation: g3 3s ease-in-out infinite; }
+      @keyframes g1 { 0%,100%{transform:scaleX(.6)} 50%{transform:scaleX(.92)} }
+      @keyframes g2 { 0%,100%{transform:scaleX(.4)} 50%{transform:scaleX(.75)} }
+      @keyframes g3 { 0%,100%{transform:scaleX(.5)} 50%{transform:scaleX(.88)} }
+      .grid { stroke:#000; stroke-width:1; opacity:.1; }
+    </style>
+  </defs>
+  <line class="grid" x1="0" y1="60" x2="1200" y2="60"/>
+  <line class="grid" x1="0" y1="120" x2="1200" y2="120"/>
+  <line class="grid" x1="0" y1="180" x2="1200" y2="180"/>
+  <text class="m k" x="40" y="40">COMMITS / WEEK</text>
+  <text class="m v" x="40" y="88">+38</text>
+  <rect class="bar" x="40" y="102" width="300" height="6"/>
+  <rect class="fill f1" x="40" y="102" width="300" height="6"/>
+  <text class="m k" x="420" y="40">REPOS</text>
+  <text class="m v" x="420" y="88">24</text>
+  <rect class="bar" x="420" y="102" width="300" height="6"/>
+  <rect class="fill f2" x="420" y="102" width="300" height="6"/>
+  <text class="m k" x="800" y="40">STARS</text>
+  <text class="m v" x="800" y="88">128+</text>
+  <rect class="bar" x="800" y="102" width="300" height="6"/>
+  <rect class="fill f3" x="800" y="102" width="300" height="6"/>
+  <text class="m k" x="40" y="160">●  CURRENT FOCUS</text>
+  <text class="m v" x="40" y="200" style="font-size:18px;">KERNEL · ROM · QUBIT V1</text>
+  <text class="m k" x="800" y="160">●  STATUS</text>
+  <text class="m v" x="800" y="200" style="font-size:18px;">SHIPPING · ITERATING</text>
+</svg>
