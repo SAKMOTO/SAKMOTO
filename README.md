@@ -26,11 +26,17 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/certifications.svg"/><img src="assets/certifications.svg" alt="Certifications"/></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s04.svg"/><img src="assets/s04.svg" alt="04 — telemetry"/></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/telemetry.svg"/><img src="assets/telemetry.svg" alt="Animated development telemetry"/></picture>
+<div align="center">
+
+<!-- LIVE stats — fetched directly from GitHub API, never cached -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=SAKMOTO&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=ffffff&icon_color=ffffff&count_private=true&include_all_commits=true&line_height=28"/><img src="https://github-readme-stats.vercel.app/api?username=SAKMOTO&show_icons=true&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000&icon_color=000000&count_private=true&include_all_commits=true&line_height=28" width="48%" alt="GitHub stats"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=SAKMOTO&theme=dark&hide_border=true&background=0d1117&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&sideNums=ffffff&dates=ffffff"/><img src="https://github-readme-streak-stats.herokuapp.com?user=SAKMOTO&theme=default&hide_border=true&background=ffffff&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000" width="48%" alt="GitHub streak"/></picture>
+
+</div>
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/github-stats.svg"/><img src="assets/github-stats.svg" width="97%" alt="GitHub statistics and repository languages"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=SAKMOTO&layout=compact&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=ffffff&count_private=true"/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAKMOTO&layout=compact&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000&count_private=true" width="97%" alt="Top languages"/></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=SAKMOTO&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff&area_color=ffffff&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY"/><img src="https://github-readme-activity-graph.vercel.app/graph?username=SAKMOTO&bg_color=00000000&color=000000&line=000000&point=000000&area_color=000000&area=true&hide_border=true&radius=0&custom_title=CONTRIBUTION%20TELEMETRY" width="97%" alt="GitHub contribution activity"/></picture>
 
