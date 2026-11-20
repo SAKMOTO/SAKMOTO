@@ -2,15 +2,18 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/typing.svg"/><img src="assets/typing.svg" alt="Typing intro"/></picture>
 
-<a href="https://qubit-beta.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/QUBIT-0d1117?style=flat-square&logoColor=ffffff"/><img src="https://img.shields.io/badge/QUBIT-ffffff?style=flat-square&logoColor=000000" alt="Qubit"/></picture></a>
-<a href="https://read.cv/mohammedharun"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/RESUME-0d1117?style=flat-square&logo=adobeacrobatreader&logoColor=ffffff"/><img src="https://img.shields.io/badge/RESUME-ffffff?style=flat-square&logo=adobeacrobatreader&logoColor=000000" alt="Resume"/></picture></a>
-<a href="https://linkedin.com/in/mohammed-harun-a5026233a"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LINKEDIN-0d1117?style=flat-square&logo=linkedin&logoColor=ffffff"/><img src="https://img.shields.io/badge/LINKEDIN-ffffff?style=flat-square&logo=linkedin&logoColor=000000" alt="LinkedIn"/></picture></a>
-<a href="https://x.com/MD_HARUN_DEV"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/X-0d1117?style=flat-square"/><img src="https://img.shields.io/badge/X-ffffff?style=flat-square" alt="X"/></picture></a>
-<a href="https://t.me/SAKMOTO"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TELEGRAM-0d1117?style=flat-square&logo=telegram&logoColor=ffffff"/><img src="https://img.shields.io/badge/TELEGRAM-ffffff?style=flat-square&logo=telegram&logoColor=000000" alt="Telegram"/></picture></a>
-<a href="https://discord.com/users/mohammedharun_3916"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/DISCORD-0d1117?style=flat-square&logo=discord&logoColor=ffffff"/><img src="https://img.shields.io/badge/DISCORD-ffffff?style=flat-square&logo=discord&logoColor=000000" alt="Discord"/></picture></a>
-<a href="https://www.instagram.com/legendary_king_harun/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/INSTAGRAM-0d1117?style=flat-square&logo=instagram&logoColor=ffffff"/><img src="https://img.shields.io/badge/INSTAGRAM-ffffff?style=flat-square&logo=instagram&logoColor=000000" alt="Instagram"/></picture></a>
-<a href="https://twitch.tv/mohammedharun"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TWITCH-0d1117?style=flat-square&logo=twitch&logoColor=ffffff"/><img src="https://img.shields.io/badge/TWITCH-ffffff?style=flat-square&logo=twitch&logoColor=000000" alt="Twitch"/></picture></a>
-<a href="mailto:mohammedharun3916@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square"/><img src="https://img.shields.io/badge/EMAIL-ffffff?style=flat-square" alt="Email"/></picture></a>
+<h1 align="center">Mohammed Harun</h1>
+<p align="center">
+  <a href="https://qubit-beta.vercel.app/"><img src="https://skillicons.dev/icons?i=qubit" alt="Qubit" width="30"/></a>
+  <a href="https://read.cv/mohammedharun"><img src="https://skillicons.dev/icons?i=resume" alt="Resume" width="30"/></a>
+  <a href="https://linkedin.com/in/mohammed-harun-a5026233a"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="30"/></a>
+  <a href="https://x.com/MD_HARUN_DEV"><img src="https://skillicons.dev/icons?i=x" alt="X" width="30"/></a>
+  <a href="https://t.me/SAKMOTO"><img src="https://skillicons.dev/icons?i=telegram" alt="Telegram" width="30"/></a>
+  <a href="https://discord.com/users/mohammedharun_3916"><img src="https://skillicons.dev/icons?i=discord" alt="Discord" width="30"/></a>
+  <a href="https://www.instagram.com/legendary_king_harun/"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" width="30"/></a>
+  <a href="https://twitch.tv/mohammedharun"><img src="https://skillicons.dev/icons?i=twitch" alt="Twitch" width="30"/></a>
+  <a href="mailto:mohammedharun3916@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" width="30"/></a>
+</p>
 
 </div>
 
