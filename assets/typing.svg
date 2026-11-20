@@ -8,7 +8,7 @@
       51%,100% {opacity:0;}
     }
   </style>
-  <text class="txt" x="20" y="60" id="msg">Hello, I’m Mohammed!</text>
+  <text class="txt" x="20" y="60" id="msg">Hello, I’m Mohammed Harun!</text>
   <line class="caret" x1="20" y1="20" x2="20" y2="70">
     <animate attributeName="x1" from="20" to="750" begin="0s" dur="4s" fill="freeze" />
     <animate attributeName="x2" from="20" to="750" begin="0s" dur="4s" fill="freeze" />
