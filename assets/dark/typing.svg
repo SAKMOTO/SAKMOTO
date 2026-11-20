@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" fill="none">
+  <style>
+    .txt {font-family:'JetBrains Mono',monospace;font-size:40px;fill:#fff;}
+    .caret {stroke:#fff;stroke-width:2;}
+
+    @keyframes blink {
+      0%,50% {opacity:1;}
+      51%,100% {opacity:0;}
+    }
+  </style>
+  <text class="txt" x="20" y="60" id="msg">Hello, I’m Mohammed!</text>
+  <line class="caret" x1="20" y1="20" x2="20" y2="70">
+    <animate attributeName="x1" from="20" to="750" begin="0s" dur="4s" fill="freeze" />
+    <animate attributeName="x2" from="20" to="750" begin="0s" dur="4s" fill="freeze" />
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+  </line>
+  <mask id="mask">
+    <rect x="0" y="0" width="800" height="100" fill="white" />
+    <rect x="0" y="0" width="800" height="100" fill="black">
+      <animate attributeName="width" from="0" to="800" begin="0s" dur="4s" fill="freeze" />
+    </rect>
+  </mask>
+  <text class="txt" x="20" y="60" mask="url(#mask)">Hello, I’m Mohammed!</text>
+</svg>

@@ -1,6 +1,6 @@
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/header.svg"/><img src="assets/header.svg" alt="Mohammed Harun"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/typing.svg"/><img src="assets/typing.svg" alt="Typing intro"/></picture>
 
 <a href="https://qubit-beta.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/QUBIT-0d1117?style=flat-square&logoColor=ffffff"/><img src="https://img.shields.io/badge/QUBIT-ffffff?style=flat-square&logoColor=000000" alt="Qubit"/></picture></a>
 <a href="https://read.cv/mohammedharun"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/RESUME-0d1117?style=flat-square&logo=adobeacrobatreader&logoColor=ffffff"/><img src="https://img.shields.io/badge/RESUME-ffffff?style=flat-square&logo=adobeacrobatreader&logoColor=000000" alt="Resume"/></picture></a>
