@@ -20,5 +20,5 @@
       <animate attributeName="width" from="0" to="800" begin="0s" dur="4s" fill="freeze" />
     </rect>
   </mask>
-  <text class="txt" x="20" y="60" mask="url(#mask)">Hello, I’m Mohammed!</text>
+  <text class="txt" x="20" y="60" mask="url(#mask)">Hello, I’m Mohammed Harun!</text>
 </svg>
